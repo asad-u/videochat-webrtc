@@ -157,7 +157,6 @@ export default class extends Controller {
   }
 
   removeUser(data) {
-    debugger
     document.getElementById(`video-${data.from}`).remove()
     delete this.pcPeers[data.from]
   }
